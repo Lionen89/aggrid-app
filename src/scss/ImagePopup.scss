@@ -1,0 +1,43 @@
+.popup {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.4s, opacity 0.5s linear;
+  &_opened {
+    visibility: visible;
+    opacity: 1;
+  }
+  &__photo {
+    background-color: rgba(0, 0, 0, 0.9);
+    &-container {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+  }
+  &__close-button {
+    position: absolute;
+    background-image: url(../../images/Close_Icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 32px;
+    width: 32px;
+    background-color: transparent;
+    top: -40px;
+    right: -40px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    &:hover {
+      opacity: 60%;
+    }
+  }
+}
