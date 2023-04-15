@@ -9,4 +9,4 @@
 - `npm start` - запуск сервера
 - `npm run deploy` - публикация сборки на github pages
 
-[Ссылка на задеплоенное приложение](https://lionen89.github.io/aggrid-app/)
+[Ссылка на задеплоенное приложение](http://lionen89.github.io/aggrid-app/)
