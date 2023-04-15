@@ -2,7 +2,7 @@
 
 ## Установка и запуск
 
-- `git clone` git@github.com:Lionen89/aggrid-app.git - клонирование репозитория
+- `git clone git@github.com:Lionen89/aggrid-app.git` - клонирование репозитория
 - `cd aggrid-app` - заходим в склонированную папку
 - `npm i` - установка зависимостей
 
